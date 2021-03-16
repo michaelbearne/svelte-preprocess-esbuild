@@ -118,7 +118,7 @@ export function typescript(options: Partial<Options> = {}): PreprocessorGroup {
 		loader: 'ts',
 		format: 'esm',
 		minify: false,
-		errorLimit: 0,
+		// errorLimit: 0,
 	};
 
 	let contents: TSConfig;
